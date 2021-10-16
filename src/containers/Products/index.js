@@ -83,7 +83,6 @@ const Products = (props) => {
                   <td>{product.name}</td>
                   <td>{product.price}</td>
                   <td>{product.quantity}</td>
-                  <td>{product.category.name}</td>
                   <td>
                     <button onClick={() => showProductDetailsModal(product)}>
                       info
